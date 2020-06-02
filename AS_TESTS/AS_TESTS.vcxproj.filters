@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\bstr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scriptmath3d.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scriptstring.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\scriptstring_utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_2func.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_addon_contextmgr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_addon_datetime.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_addon_debugger.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_addon_dictionary.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_addon_scriptarray.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_addon_scriptbuilder.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_addon_scriptfile.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_addon_scriptgrid.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_addon_scripthandle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_addon_scriptmath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_addon_serializer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_addon_stdstring.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_addon_weakref.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_any.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_argref.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_array.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_arrayhandle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_arrayintf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_arrayobject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_assign.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_auto.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_autohandle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_bits.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_bool.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_castop.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_cdecl_objlast.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_cdecl_return.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_circularimport.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_compiler.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_composition.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_condition.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_config.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_configaccess.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_constobject.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_constproperty.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_constructor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_constructor2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_conversion.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_cstring.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_custommem.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_debug.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_defaultarg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_destructor.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_dict.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_discard.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_dump.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_dynamicconfig.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_enum.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_exception.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_exceptionmemory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_factory.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_float.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_for.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_funcoverload.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_functionptr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_garbagecollect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_generic.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_getargptr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_getset.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_implicitcast.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_implicithandle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_import.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_import2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_inheritance.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_int8.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_interface.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_mixin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_module.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_multiassign.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_namedargs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_namespace.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_nested.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_nevervisited.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_notinitialized.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_object.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_object2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_object3.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_objhandle.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_objhandle2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_objzerosize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_operator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_optimize.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_parser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_pointer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_postprocess.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_pow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_propintegerdivision.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_refargument.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_refcast.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_registertype.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_return_with_cdecl_objfirst.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_returnstring.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_rz.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_saveload.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_scriptclassmethod.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_scriptmath.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_scriptretref.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_scriptstring.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_scriptstruct.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_shared.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_shark.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_singleton.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_stack2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_stdvector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_stream.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_structintf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_suspend.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_template.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_thiscall_as_method.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_thiscall_as_method_config.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_thiscall_asglobal.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_thiscall_class.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_typedef.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_unsaferef.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_vartype.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_vector3.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test_vector3_2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\test2modules.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testbstr.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testcdecl_class.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testcdecl_class_a.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testcdecl_class_c.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testcdecl_class_d.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testcdecl_class_k.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testcreateengine.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testenumglobvar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testexecute.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testexecute1arg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testexecute2args.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testexecute4args.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testexecute4argsf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testexecute32args.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testexecute32mixedargs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testexecutemixedargs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testexecutescript.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testexecutestring.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testexecutethis32mixedargs.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testglobalvar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testint64.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testlongtoken.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testmoduleref.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testmultipleinheritance.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testnegateoperator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testnotcomplexstdcall.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testnotcomplexthiscall.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testoutput.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\teststack.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\teststdcall4args.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\teststdstring.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testswitch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testtempvar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testvirtualinheritance.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\testvirtualmethod.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\utils.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\bstr.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="source\cstring.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="source\scriptmath3d.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="source\scriptstring.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="source\stdvector.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="source\utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="source\xcodeLog.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\xcodeLog.mm">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+</Project>
