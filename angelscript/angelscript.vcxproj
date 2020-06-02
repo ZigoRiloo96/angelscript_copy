@@ -187,6 +187,7 @@
     <ClCompile Include="source\as_bytecode.cpp" />
     <ClCompile Include="source\as_callfunc.cpp" />
     <ClCompile Include="source\as_callfunc_arm.cpp" />
+    <ClCompile Include="source\as_callfunc_arm64.cpp" />
     <ClCompile Include="source\as_callfunc_mips.cpp" />
     <ClCompile Include="source\as_callfunc_ppc.cpp" />
     <ClCompile Include="source\as_callfunc_ppc_64.cpp" />
@@ -222,6 +223,7 @@
     <ClCompile Include="source\as_variablescope.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="source\as_callfunc_arm_aarch64.S" />
     <None Include="source\as_callfunc_arm_gcc.S" />
     <None Include="source\as_callfunc_arm_msvc.asm" />
     <None Include="source\as_callfunc_arm_vita.S" />

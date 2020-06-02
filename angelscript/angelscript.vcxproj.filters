@@ -241,6 +241,9 @@
     <ClCompile Include="source\as_variablescope.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="source\as_callfunc_arm64.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="source\as_callfunc_arm_gcc.S">
@@ -253,6 +256,9 @@
       <Filter>src</Filter>
     </None>
     <None Include="source\as_callfunc_arm_xcode.S">
+      <Filter>src</Filter>
+    </None>
+    <None Include="source\as_callfunc_arm_aarch64.S">
       <Filter>src</Filter>
     </None>
   </ItemGroup>
